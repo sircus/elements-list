@@ -1,0 +1,25 @@
+:root {
+  --list-fontSize: var(--g-fontSize);
+  --dt-fontSize: var(--g-fontSize);
+  --dt-fontWeight: var(--g-fontWeight-bold);
+}
+
+/*
+ * sircus-elements-list
+ ================================================== */
+ul,ol {
+  font-size: var(--list-fontSize);
+  padding-left:var(--g-space);
+}
+ul > li > ul,
+ol > li > ol{
+  padding-left:1.5rem;
+  margin:0;
+  list-style:inset;
+}
+
+dt {
+  font-size: var(--dt-fontSize);
+  font-weight: var(--dt-fontWeight);
+}
+dd { margin-left: 0; }

@@ -1,0 +1,29 @@
+
+// Converted Variables
+
+$list-fontSize: $g-fontSize !default;
+$dt-fontSize: $g-fontSize !default;
+$dt-fontWeight: $g-fontWeight-bold !default;
+
+// Custom Media Query Variables
+
+
+/*
+ * sircus-elements-list
+ ================================================== */
+ul,ol {
+  font-size: $list-fontSize;
+  padding-left:$g-space;
+}
+ul > li > ul,
+ol > li > ol{
+  padding-left:1.5rem;
+  margin:0;
+  list-style:inset;
+}
+
+dt {
+  font-size: $dt-fontSize;
+  font-weight: $dt-fontWeight;
+}
+dd { margin-left: 0; }
