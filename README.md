@@ -12,7 +12,7 @@
 > use npm:
 
 ```bash
-$ npm install sircus-elements-list && npm install sircus-global-proprety
+$ npm install sircus-elements-list sircus-global-proprety
 ```
 
 ## Usage
