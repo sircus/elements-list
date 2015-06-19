@@ -1,14 +1,14 @@
 :root {
-  --list-fontSize: var(--g-fontSize);
-  --dt-fontSize: var(--g-fontSize);
-  --dt-fontWeight: var(--g-fontWeight-bold);
+  --elemensList-fontSize: var(--g-fontSize);
+  --elemensList-dt-fontSize: var(--g-fontSize);
+  --elemensList-dt-fontWeight: var(--g-fontWeight-bold);
 }
 
 /*
  * sircus-elements-list
  ================================================== */
 ul,ol {
-  font-size: var(--list-fontSize);
+  font-size: var(--elemensList-fontSize);
   padding-left:var(--g-space);
 }
 ul > li > ul,
@@ -19,7 +19,7 @@ ol > li > ol{
 }
 
 dt {
-  font-size: var(--dt-fontSize);
-  font-weight: var(--dt-fontWeight);
+  font-size: var(--elemensList-dt-fontSize);
+  font-weight: var(--elemensList-dt-fontWeight);
 }
 dd { margin-left: 0; }

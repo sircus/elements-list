@@ -1,18 +1,16 @@
 
 // Converted Variables
 
-$list-fontSize: $g-fontSize !default;
-$dt-fontSize: $g-fontSize !default;
-$dt-fontWeight: $g-fontWeight-bold !default;
-
-// Custom Media Query Variables
+$elemensList-fontSize: $g-fontSize !default;
+$elemensList-dt-fontSize: $g-fontSize !default;
+$elemensList-dt-fontWeight: $g-fontWeight-bold !default;
 
 
 /*
  * sircus-elements-list
  ================================================== */
 ul,ol {
-  font-size: $list-fontSize;
+  font-size: $elemensList-fontSize;
   padding-left:$g-space;
 }
 ul > li > ul,
@@ -23,7 +21,7 @@ ol > li > ol{
 }
 
 dt {
-  font-size: $dt-fontSize;
-  font-weight: $dt-fontWeight;
+  font-size: $elemensList-dt-fontSize;
+  font-weight: $elemensList-dt-fontWeight;
 }
 dd { margin-left: 0; }
