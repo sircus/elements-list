@@ -5,32 +5,32 @@
 > A base lists elements Module for Sircus.
 
 ## Dependencies
-- [sircus-global-proprety](https://github.com/sircus/global-property)
+- [sircus-global-property](https://github.com/sircus/global-property)
 
 ## Installation
 
-> use npm:
+> npm:
 
 ```bash
-$ npm install sircus-elements-list sircus-global-proprety
+$ npm install sircus-elements-list sircus-global-property
 ```
 
 ## Usage
 
-> use cssnext:
+> cssnext:
 
 input.css
 ```css
 @import "sircus-elements-list";
-@import "sircus-global-proprety";
+@import "sircus-global-property";
 ```
 
-> use sass:
+> sass:
 
 input.scss
-```css
-@import "node_modules/sircus-global-proprety/converted";
-@import "node_modules/sircus-elements-list/converted";
+```scss
+@import "./node_modules/sircus-global-property/converted";
+@import "./node_modules/sircus-elements-list/converted";
 ```
 
 > html
